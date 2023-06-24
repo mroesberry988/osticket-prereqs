@@ -20,11 +20,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
--Item 1
--Item 2
-Item 3
-- Item 4
-- Item 5
+-Installing PHP Manager System for IIS
+-Download and Install the Rewrite Module
+-Download of Zip file PHP under C Drive
+-Download and Install Microsoft Visual C+ Redistrubutal 
+-Download and Install My SQL Server with Typical Setup and Standard Configuration
 
 <h2>Installation Steps</h2>
 
