@@ -15,7 +15,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Internet Information Services (IIS)
 
 <h2>Operating Systems Used </h2>
-
+-Create a Virtual Machine in Azure 
+  -Create a Resource Group
 - Windows 10</b> (21H2)
 
 <h2>List of Prerequisites</h2>
