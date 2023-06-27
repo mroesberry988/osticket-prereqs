@@ -27,11 +27,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 -Download and Install Microsoft Visual C+ Redistrubutal 
 -Download and Install My SQL Server with Typical Setup and Standard Configuration
 
-<h2>Installation Steps</h2>
+<h2>Installati
+![image](https://github.com/mroesberry988/osticket-prereqs/assets/134666751/4e6075dc-b11a-4db2-a312-f0568840d685)
 
-![image](https://github.com/mroesberry988/osticket-prereqs/assets/134666751/000ee954-68cf-4000-a6a4-f
-</p>
-<p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
