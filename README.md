@@ -25,7 +25,23 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 -Download and Install Microsoft Visual C+ Redistrubutal 
 -Download and Install My SQL Server with Typical Setup and Standard Configuration
 
+Welcome to OS Ticket Lab. Above listed is the prerequistes need for the lab. Below are the steps taken to install OS Ticket:
 
+1) Create a resource Group in Azure.
+2) Create a VM using Windows 10 with a 2-4 Virtual CPUs.
+   a. Let the VM create a Virtual Network
+3) Go to Remote Desktop Connection
+   a. Enter the Public IP address. This is where we will install files for the OS Ticket Platform.
+4) Once we are in our remote desktop, we are going to INSTALL and ENABLE IIS( Internet Install Services) with Windows CGI to run OS Ticket.
+   a. Go to Control in Systems(in the start menu), and click run-> Control Parts Program-> Turn Windows on and off.
+   b. Scroll Down to Internet Information Services->Web Management Tools-> Click on IIS Management Console
+   c. Scroll down to World Wide Web Services-> Application Development and Features. Check CGI and common HTTP Feature-let that install (to check if installed correctly, open a new tab browser and type 127.0.0.1)
+5) Go back to the PHP Manager for IIS, and click DOWNLOAD and INSTALL.
+6) Install Rewrite Module
+   a.Next create a directory C:\\PHP. Next, go to This PC->Drivers->C Drive-> New Folder and call it PHP.
+   b.Go back to the install list-> PHP 7.3.8. Extract all and unzip the PHP Folder in the C Drive: C:\\PHP Folder.
+7) Go back to the Install list and DOWNLOAD AND INSTALL VC redist.
+8) 
 ![image](https://github.com/mroesberry988/osticket-prereqs/assets/134666751/911952b2-0af2-4758-8e14-1a9ef14041d3)
 
 ![image](https://github.com/mroesberry988/osticket-prereqs/assets/134666751/f2c2f459-f71b-4d00-9631-d2e141a23972)
