@@ -48,15 +48,18 @@ Welcome to OS Ticket Lab. Above listed is the prerequistes need for the lab. Bel
 10) Register PHP from within IIS
 11) Reload IIS (Open IIS, Stop and Start the server)
 12) Go to sites, default, then to OS ticket. On the right side click "browse 80"
-13) Before we continue, we need to go back and enable extenstions.
+13) Before we continue, we need to go back and enable extensions.
     a.Go back to IIS, site->Defualt->OS ticket
     b.Double-Click PHP Manager
     c.Click"Enable or Disable and Extension"
       1. ENABLE php_imap.dll
       2. ENABLE php_intl.dll
       3. ENABLE php_opcache dll
-    d.Refresh the OS Ticket site in your browse, observe the changes.
-14)
+    d.Refresh the OS Ticket site in your browse, and observe the changes.
+14)Next we are going to rename Ost-config.php
+   a. From the C:\intepub\wwwroot\osTicket\inclde\ost-sampleconfig.php
+   b. Change it to C:\intepub\wwwroot\osTicket\include\ost-config.php
+15) 
 ![image](https://github.com/mroesberry988/osticket-prereqs/assets/134666751/911952b2-0af2-4758-8e14-1a9ef14041d3)
 
 ![image](https://github.com/mroesberry988/osticket-prereqs/assets/134666751/f2c2f459-f71b-4d00-9631-d2e141a23972)
