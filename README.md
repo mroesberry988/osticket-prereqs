@@ -28,6 +28,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 osTicket Installation Files:
 http://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
+![image](https://github.com/mroesberry988/osticket-prereqs/assets/134666751/9267e7e1-42c8-4709-8a10-9e618bef2faf)
+
 
 Welcome to OS Ticket Lab. Listed above are the prerequisites needed for the lab. Below are the steps taken to install OS Ticket:
 
@@ -40,12 +42,18 @@ Welcome to OS Ticket Lab. Listed above are the prerequisites needed for the lab.
 ![image](https://github.com/mroesberry988/osticket-prereqs/assets/134666751/f2c2f459-f71b-4d00-9631-d2e141a23972)
 
 
+Now that we have our Prequites in place, below are the steps for Install:
+
 3) Go to Remote Desktop Connection
    a. Enter the Public IP address. This is where we will install files for the OS Ticket Platform.
 4) Once we are on our remote desktop, we are going to INSTALL and ENABLE IIS( Internet Install Services) with Windows CGI to run OS Ticket.
    a. Go to Control in Systems(in the start menu), and click run-> Control Parts Program-> Turn Windows on and off.
    b. Scroll Down to Internet Information Services->Web Management Tools-> Click on IIS Management Console
    c. Scroll down to World Wide Web Services-> Application Development and Features. Check CGI and common HTTP Feature-let that install (to check if installed correctly, open a new tab browser and type 127.0.0.1)
+
+![image](https://github.com/mroesberry988/osticket-prereqs/assets/134666751/fde07ccc-33af-4de4-89e6-fa3bc25902fb)
+
+
 5) Go back to the PHP Manager for IIS, and click DOWNLOAD and INSTALL.
 6) Install Rewrite Module
    a.Next create a directory C:\\PHP. Next, go to This PC->Drivers->C Drive-> New Folder and call it PHP.
@@ -87,22 +95,8 @@ Welcome to OS Ticket Lab. Listed above are the prerequisites needed for the lab.
     d. Click "Install Now!"
 19) CONGRATULATIONS! You have now installed osTicket. To access log-in page and browse you can access it here: http://localhost/osTicket/scp/login.php
 20) Note:End Users osTicket URL: http://localhost/osTicket/
-![image](https://github.com/mroesberry988/osticket-prereqs/assets/134666751/911952b2-0af2-4758-8e14-1a9ef14041d3)
 
-![image](https://github.com/mroesberry988/osticket-prereqs/assets/134666751/f2c2f459-f71b-4d00-9631-d2e141a23972)
-
-
-<h2>Installation
-
-![image](https://github.com/mroesberry988/osticket-prereqs/assets/134666751/4d55c627-e589-4067-a952-47af4bfa903e)
-
-
-
-
-
-![image](https://github.com/mroesberry988/osticket-prereqs/assets/134666751/fde07ccc-33af-4de4-89e6-fa3bc25902fb)
-
-![image](https://github.com/mroesberry988/osticket-prereqs/assets/134666751/e6bcab13-05df-40cf-881a-a7d5d15d3e35)
+    ![image](https://github.com/mroesberry988/osticket-prereqs/assets/134666751/4d55c627-e589-4067-a952-47af4bfa903e)
 
 
 
