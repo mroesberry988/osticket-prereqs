@@ -25,11 +25,21 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 -Download and Install Microsoft Visual C+ Redistrubutal 
 -Download and Install My SQL Server with Typical Setup and Standard Configuration
 
+osTicket Installation Files:
+http://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
+
+
 Welcome to OS Ticket Lab. Listed above are the prerequisites needed for the lab. Below are the steps taken to install OS Ticket:
 
 1) Create a resource Group in Azure.
 2) Create a VM using Windows 10 with 2-4 Virtual CPUs.
    a. Let the VM create a Virtual Network
+
+![image](https://github.com/mroesberry988/osticket-prereqs/assets/134666751/911952b2-0af2-4758-8e14-1a9ef14041d3)
+
+![image](https://github.com/mroesberry988/osticket-prereqs/assets/134666751/f2c2f459-f71b-4d00-9631-d2e141a23972)
+
+
 3) Go to Remote Desktop Connection
    a. Enter the Public IP address. This is where we will install files for the OS Ticket Platform.
 4) Once we are on our remote desktop, we are going to INSTALL and ENABLE IIS( Internet Install Services) with Windows CGI to run OS Ticket.
